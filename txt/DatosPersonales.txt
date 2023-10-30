@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Datos Personales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #555;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+
+    <style>
+        .justificado {
+            text-align: justify;
+        }
+    </style>
+
+    <style>
+        /* Cambiar el color de los enlaces no visitados (a) */
+        a {
+            color: blue;
+        }
+
+        /* Cambiar el color de los enlaces visitados (a:visited) */
+        a:visited {
+            color: purple;
+        }
+
+        /* Cambiar el color de los enlaces al pasar el mouse (a:hover) */
+        a:hover {
+            color: yellow;
+        }
+
+        /* Cambiar el color de los enlaces cuando se seleccionan (a:active) */
+        a:active {
+            color: green;
+        }
+    </style>
+
+</head>
+<body>
+
+    <FONT SIZE=3> <a href="javascript:history.back()">REGRESAR</a> </FONT>
+
+    <header>
+        <h1><font face="Didot,Arial,Verdana">Datos Personales</font></h1>
+    </header>
+
+    <section>
+        <p style="text-align: left;"> Nombre: <FONT COLOR="red"> Diego Angel González Romero </FONT>
+        <p style="text-align: left;"> Numero de control: <FONT COLOR="red"> 20222155 </FONT>
+        <p style="text-align: left;"> Edad: <FONT COLOR="red"> 21 años </FONT>
+        <p style="text-align: left;"> Dirección: <FONT COLOR="red"> Av. San Alfonso #57 </FONT>
+        <p style="text-align: left;"> Localidad: <FONT COLOR="red"> Col. Santa Margarita </FONT>
+        <p style="text-align: left;"> Codigo Postal: <FONT COLOR="red"> 72310 </FONT>
+        <p style="text-align: left;"> Estado: <FONT COLOR="red"> Puebla </FONT>
+        <p style="text-align: left;"> Municipio: <FONT COLOR="red"> Puebla </FONT>
+        <p style="text-align: left;"> Telefono: <FONT COLOR="red"> 2225804925 </FONT>
+        <p style="text-align: left;"> e-mail: <FONT COLOR="red"> pandied@hotmail.com </FONT>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Datos Personales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #555;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+
+    <style>
+        .justificado {
+            text-align: justify;
+        }
+    </style>
+
+    <style>
+        /* Cambiar el color de los enlaces no visitados (a) */
+        a {
+            color: blue;
+        }
+
+        /* Cambiar el color de los enlaces visitados (a:visited) */
+        a:visited {
+            color: purple;
+        }
+
+        /* Cambiar el color de los enlaces al pasar el mouse (a:hover) */
+        a:hover {
+            color: yellow;
+        }
+
+        /* Cambiar el color de los enlaces cuando se seleccionan (a:active) */
+        a:active {
+            color: green;
+        }
+    </style>
+
+</head>
+<body>
+
+    <FONT SIZE=3> <a href="javascript:history.back()">REGRESAR</a> </FONT>
+
+    <header>
+        <h1><font face="Didot,Arial,Verdana">Materias</font></h1>
+    </header>
+
+    <table border="1">
+        <tr>
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+        <tr>
+            <td>7:00 - 9:00</td>
+            <td> </td>
+            <td>Programación Web</td>
+            <td> </td>
+            <td>Programación Web</td>
+            <td>Programación Web</td>
+        </tr>
+        <tr>
+            <td>9:00 - 11:00</td>
+            <td> </td>
+            <td>Compromiso Civico</td>
+            <td> </td>
+            <td>Compromiso Civico</td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>11:00 - 13:00</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>13:00 - 15:00</td>
+            <td> </td>
+            <td>Redes de Computadoras</td>
+            <td> </td>
+            <td>Redes de Computadoras</td>
+            <td>Redes de Computadoras</td>
+        </tr>
+        <tr>
+            <td>15:00 - 17:00</td>
+            <td>Elect. y Magnetismo</td>
+            <td> </td>
+            <td>Elect. y Magnetismo</td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>17:00 - 19:00</td>
+            <td>Ing. en Software</td>
+            <td> </td>
+            <td>Ing. en Software</td>
+            <td> </td>
+            <td> </td>
+        </tr>
+    </table>
+
+</body>
+</html>

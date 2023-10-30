@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi bio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #555;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+
+    <style>
+        .justificado {
+            text-align: justify;
+        }
+    </style>
+
+    <style>
+        /* Cambiar el color de los enlaces no visitados (a) */
+        a {
+            color: white;
+        }
+
+        /* Cambiar el color de los enlaces visitados (a:visited) */
+        a:visited {
+            color: purple;
+        }
+
+        /* Cambiar el color de los enlaces al pasar el mouse (a:hover) */
+        a:hover {
+            color: yellow;
+        }
+
+        /* Cambiar el color de los enlaces cuando se seleccionan (a:active) */
+        a:active {
+            color: green;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1><font face="Didot,Arial,Verdana">Mi biografía</font></h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="DatosPersonales.html">Datos Personales</a></li>
+            <li><a href="pagina_destino.html">Experiencia Profesional</a></li>
+            <li><a href="Materias.html">Materias</a></li>
+            <li><a href="Hobbies.html">Hobbies</a></li>
+            <li><a href="Redes.html">Redes Sociales</a></li>
+            <li><a href="Contactar.html">Contactar</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2><FONT SIZE=6 COLOR="red">¿Q</FONT><FONT SIZE=4>uién soy yo</FONT> <FONT SIZE=6 COLOR="red">?</FONT><FONT SIZE=4></FONT></h2>
+        <p class="justificado">Mi vida es un mar de experiencias, día con día debido a mi estilo de vida, desde cumplir con mis responsabilidades, encargarme de mi hermana, como tener que trabajar ciertos días de la semana saliendo a otros ciudades u estados, lo cual hace que tenga una vida más atareada. Vivo solo con mi hermana prácticamente y tengo sueños bastante grandes para cumplir a corta edad, por eso es que me desgasto tanto todas las semanas, para lograrlos lo más antes posible.</p>
+    </section>
+    <footer>
+        <p>Diego Angel González Romero - 20222155 - Programación web</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DAGR Inc</title>
+    <link rel="icon" href="https://cdn.icon-icons.com/icons2/2596/PNG/512/check_one_icon_155665.png" type="image/x-icon">
+
+    <style>
+        .texto-con-sombra {
+            font-size: 40px; /* Tamaño del texto */
+            color: white; /* Color del texto */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Desplazamiento x, desplazamiento y, desenfoque y color de sombra */
+        }
+    </style>
+
+    <style>
+        .centrar-imagen {
+            display: block; /* Convierte la imagen en un bloque */
+            margin: 0 auto; /* Centra horizontalmente la imagen */
+        }
+    </style>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0px;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            height: 21px;
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 21px;
+            padding: 10px;
+        }
+
+        nav ul li a:hover{
+          background-color: #FFFFFF;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+
+    <style>
+        .justificado {
+            text-align: justify;
+        }
+    </style>
+
+    <style>
+        /* Cambiar el color de los enlaces no visitados (a) */
+        a {
+            color: white;
+        }
+
+        /* Cambiar el color de los enlaces visitados (a:visited) */
+        a:visited {
+            color: white;
+        }
+
+        /* Cambiar el color de los enlaces al pasar el mouse (a:hover) */
+        a:hover {
+            color: black;
+        }
+
+        /* Cambiar el color de los enlaces cuando se seleccionan (a:active) */
+        a:active {
+            color: green;
+        }
+    </style>
+
+    <style>
+        /* Estilos para el botón */
+        .mi-boton {
+            background-color: #202020; /* Color de fondo */
+            color: #000000; /* Color de texto */
+            padding: 10px 20px; /* Espaciado interno */
+            border: none; /* Sin borde */
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer; /* Cambia el cursor al pasar el ratón */
+        }
+        
+        /* Estilos para el botón al pasar el ratón por encima */
+        .mi-boton:hover {
+            background-color: #515151; /* Cambia el color de fondo al pasar el ratón */
+        }
+    </style>
+
+    <style>
+        .contenedor-con-fondo {
+            background-image: url('https://i.imgur.com/qNd5cFT.jpg');
+            background-size: contain; /* Ajusta la imagen al tamaño del contenedor */
+            background-attachment: fixed; /* Fija la imagen de fondo */
+            height: auto; /* Altura del contenedor */
+            color: #fff; /* Color del texto dentro del contenedor */
+            text-align: center; /* Centra el texto en el contenedor */
+            padding: 20px; /* Espaciado interno del contenedor */
+        }
+    </style>
+
+    <style>
+        /* Estilo para el fondo del párrafo */
+        .fondo-barra {
+            background-color: #202020; /* Color de fondo deseado */
+            padding: auto; /* Espaciado interno para que el fondo sea visible */
+        }
+    </style>
+
+    <style>
+        /* Estilo para el fondo del párrafo */
+        .fondo-obscuro {
+            background-image: url('https://media.es.wired.com/photos/64aef7f7532fc59e0e8d514f/16:9/w_2560%2Cc_limit/expansion%2520universo%2520edad%2520nueva.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 20px;
+            color: white; /* Espaciado interno para que el fondo sea visible */
+        }
+    </style>
+    
+    <style>
+        .parrafo-con-fondo {
+            background-color: rgba(0, 0, 0, 0.5); /* Rojo con 50% de transparencia */
+            padding: 20px;
+        }
+    </style>
+
+    <style>
+        .imagen-redimensionada {
+            width: 800px;
+            height: 600px;
+            text-align: center;
+        }
+    </style>
+    
+        <style>
+        .carousel-container {
+            width: 400px;
+            overflow: hidden;
+            position: relative;
+            margin: 0 auto;
+        }
+        .carousel {
+            width: 200%;
+            display: flex;
+            animation: carousel-animation 5s linear infinite;
+        }
+        .carousel img {
+            width: 50%;
+            object-fit: cover;
+        }
+        @keyframes carousel-animation {
+            0% {
+                transform: translateX(0%);
+            }
+            25% {
+                transform: translateX(0%);
+            }
+            50% {
+                transform: translateX(-50%);
+            }
+            75% {
+                transform: translateX(-50%);
+            }
+            100% {
+                transform: translateX(0%);
+            }
+        }
+    </style>
+
+</head>
+<body class="fondo-obscuro">
+
+    <header class="contenedor-con-fondo">
+      <div>
+        <h1><font face="Didot,Arial,Verdana", class="texto-con-sombra">MI BIOGRAFÍA</font></h1>
+      </div>
+    </header>
+    <nav class="fondo-barra">
+        <ul>
+            <li><a href="DatosPersonales.html">Datos Personales</a></li>
+            <li><a href="Itinerario.html">Itinerario</a></li>
+            <li><a href="Hobbies.html">Hobbies</a></li>
+            <li><a href="Redes.html">Redes Sociales</a></li>
+            <li><a href="Contactar.html">Contactar</a></li>
+        </ul>
+    </nav>
+    <section class="parrafo-con-fondo">
+        <h2><FONT SIZE=6 COLOR="red">¿Q</FONT><FONT SIZE=4 COLOR="yellow">UIÉN SOY YO</FONT> <FONT SIZE=6 COLOR="red">?</FONT><FONT SIZE=4></FONT></h2>
+        <p class="justificado"><FONT COLOR="yellow">Mi vida es un mar de experiencias, día con día debido a mi estilo de vida, desde cumplir con mis responsabilidades, encargarme de mi hermana, como tener que trabajar ciertos días de la semana saliendo a otros ciudades u estados, lo cual hace que tenga una vida más atareada. Vivo solo con mi hermana prácticamente y tengo sueños bastante grandes para cumplir a corta edad, por eso es que me desgasto tanto todas las semanas, para lograrlos lo más antes posible.</FONT></p>
+        
+        <div class="carousel-container">
+          <div class="carousel">
+            <img src="MyFam.jpeg" alt="Imagen 1">
+            <img src="fam.jpeg" alt="Imagen 2">
+        </div>
+    </div>
+      
+      <h1><FONT SIZE=4 COLOR="white">MI TRAYECTORÍA</FONT></h1>
+      <p class="justificado">Estudie toda mi vida en el Centro Escolar Manuel Espinosa Yglesias</p>
+      <img src="cemey.jpg" class="centrar-imagen">
+      <p class="justificado">Hice muchas amistades en todo el tiempo que estuve estudiando aquí, sin embargo no conservo a ninguna de ellas, siempre fui más de hacer amistades fuera de donde estudiaba, amigos cerca de mi casa, por trabajo o por amigos de amigos que iban en otras escuelas</p>
+      <img src="nomegradue.jpg" class="centrar-imagen">
+      <p class="justificado">Lamentablemente cuando iba a graduarme del bachillerato, llego la pandemia por lo que no tuve una graduación como tal, solo me dieron mis papeles y de hecho tuve que legalizarlos por mi cuenta</p>
+      
+    </section>
+    <footer>
+        <p>Diego Angel González Romero - 20222155 - Programación web</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Itinerario</title>
+    <link rel="icon" href="https://cdn.icon-icons.com/icons2/2596/PNG/512/check_one_icon_155665.png" type="image/x-icon">
+    <style>
+        .texto-con-sombra {
+            font-size: 40px; /* Tamaño del texto */
+            color: white; /* Color del texto */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Desplazamiento x, desplazamiento y, desenfoque y color de sombra */
+        }
+    </style>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #555;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+
+    <style>
+        .justificado {
+            text-align: justify;
+        }
+    </style>
+
+    <style>
+        /* Cambiar el color de los enlaces no visitados (a) */
+        a {
+            color: blue;
+        }
+
+        /* Cambiar el color de los enlaces visitados (a:visited) */
+        a:visited {
+            color: purple;
+        }
+
+        /* Cambiar el color de los enlaces al pasar el mouse (a:hover) */
+        a:hover {
+            color: yellow;
+        }
+
+        /* Cambiar el color de los enlaces cuando se seleccionan (a:active) */
+        a:active {
+            color: green;
+        }
+    </style>
+
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Aplicar color de fondo a una celda específica */
+        .resaltado1 {
+            background-color: #B19400; /* Cambia el color de fondo a amarillo */
+        }
+        
+        .resaltado2 {
+            background-color: #3EDB34; /* Cambia el color de fondo a amarillo */
+        }
+        
+        .resaltado3 {
+            background-color: #34B5DB; /* Cambia el color de fondo a amarillo */
+        }
+        
+        .resaltado4 {
+            background-color: #E954E5; /* Cambia el color de fondo a amarillo */
+        }
+        
+        .resaltado5 {
+            background-color: #EA3B3B; /* Cambia el color de fondo a amarillo */
+        }
+        
+        .resaltado6 {
+            background-color: #000000; /* Cambia el color de fondo a amarillo */
+        }
+        
+    </style>
+
+    <style>
+        .contenedor-con-fondo {
+            background-image: url('https://i.imgur.com/B4eOTWb.jpg');
+            background-size: contain; /* Ajusta la imagen al tamaño del contenedor */
+            background-attachment: fixed; /* Fija la imagen de fondo */
+            height: auto; /* Altura del contenedor */
+            color: #fff; /* Color del texto dentro del contenedor */
+            text-align: center; /* Centra el texto en el contenedor */
+            padding: 20px; /* Espaciado interno del contenedor */
+        }
+    </style>
+
+    <style>
+        /* Estilo para el fondo del párrafo */
+        .fondo-obscuro {
+            background-image: url('https://media.es.wired.com/photos/64aef7f7532fc59e0e8d514f/16:9/w_2560%2Cc_limit/expansion%2520universo%2520edad%2520nueva.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 20px;
+            color: white; /* Espaciado interno para que el fondo sea visible */
+        }
+    </style>
+    
+    <style>
+        .parrafo-con-fondo {
+            background-color: rgba(0, 0, 0, 0.5); /* Rojo con 50% de transparencia */
+            padding: 20px;
+        }
+    </style>
+
+    </style>
+    
+        <style>
+        .carousel-container {
+            width: 400px;
+            overflow: hidden;
+            position: relative;
+            margin: 0 auto;
+        }
+        .carousel {
+            width: 200%;
+            display: flex;
+            animation: carousel-animation 7s linear infinite;
+        }
+        .carousel img {
+            width: 50%;
+            object-fit: cover;
+        }
+        @keyframes carousel-animation {
+            0% {
+                transform: translateX(0%);
+            }
+            25% {
+                transform: translateX(0%);
+            }
+            50% {
+                transform: translateX(-50%);
+            }
+            75% {
+                transform: translateX(-50%);
+            }
+            100% {
+                transform: translateX(0%);
+            }
+        }
+    </style>
+
+</head>
+<body class="fondo-obscuro">
+
+    <header class="contenedor-con-fondo">
+        <h1><font face="Didot,Arial,Verdana", class="texto-con-sombra">ITINERARIO</font></h1>
+    </header>
+
+    <section class="parrafo-con-fondo">
+      
+      <p class="justificado"><FONT COLOR="yellow">Durante un día normal tengo varias actividades, dependiendo el día. En primer lugar tengo que ir a dejar a mi hermana, y primas a la escuela, de ahí tomar el camión para ir a la Uni, debido a que me robaron el carro y por el momento no tengo.</FONT></p>
+      
+    <table border="1">
+        <tr>
+            <th class="resaltado6">Hora</th>
+            <th class="resaltado6">Lunes</th>
+            <th class="resaltado6">Martes</th>
+            <th class="resaltado6">Miercoles</th>
+            <th class="resaltado6">Jueves</th>
+            <th class="resaltado6">Viernes</th>
+        </tr>
+        <tr>
+            <td class="resaltado6">7:00 - 9:00</td>
+            <td> </td>
+            <td class="resaltado1">Programacion Web</td>
+            <td> </td>
+            <td class="resaltado1">Programacion Web</td>
+            <td class="resaltado1">Programacion Web</td>
+        </tr>
+        <tr>
+            <td class="resaltado6">9:00 - 11:00</td>
+            <td> </td>
+            <td class="resaltado2">Compromiso Civico</td>
+            <td> </td>
+            <td class="resaltado2">Compromiso Civico</td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td class="resaltado6">11:00 - 13:00</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td class="resaltado6">13:00 - 15:00</td>
+            <td> </td>
+            <td class="resaltado3">Redes de Computadoras</td>
+            <td> </td>
+            <td class="resaltado3">Redes de Computadoras</td>
+            <td class="resaltado3">Redes de Computadoras</td>
+        </tr>
+        <tr>
+            <td class="resaltado6">15:00 - 17:00</td>
+            <td class="resaltado4">Elect. y Magnetismo</td>
+            <td> </td>
+            <td class="resaltado4">Elect. y Magnetismo</td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td class="resaltado6">17:00 - 19:00</td>
+            <td class="resaltado5">Ing. en Software</td>
+            <td> </td>
+            <td class="resaltado5">Ing. en Software</td>
+            <td> </td>
+            <td> </td>
+        </tr>
+    </table>
+    
+    <p class="justificado"><FONT COLOR="white">Después de la Uni, tengo que ir a mi casa, a veces tengo que salir a otros municipios o estados a ir a repartir y/o vender medicamentos a farmacias y hay días que tengo que dormir fuera de Puebla, y regresar en la mañana, así como hay días en los que marco para vender a distancia.</FONT></p>
+    
+        <div class="carousel-container">
+          <div class="carousel">
+            <img src="ruta 4.jpeg" alt="Imagen 1">
+            <img src="ruta 3.jpeg" alt="Imagen 2">
+        </div>
+    
+    </section>
+</body>
+</html>
